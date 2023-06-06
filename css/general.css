@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  --primary-color: #e0e2e9;
+  --secondary-color: #0d1432;
+}
+
+body {
+  background-color: #f3eced;
+}
+
+input, button, select {
+  padding: 8px 14px;
+}
+
+button, select {
+  background-color: var(--secondary-color);
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.back-btn {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  transform: scale(1.1);
+  border-radius: 10px;
+  padding: 8px 14px;
+}
+
+.back-btn:hover {
+  transform: scale(1.2);
+}

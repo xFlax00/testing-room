@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Divisor de Conta de Restaurante</title>
+  <link rel="stylesheet" href="../../css/general.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a href="../../index.html">
+    <button class="back-btn">
+      Voltar
+    </button>
+  </a>
+  <main>
+    <form>
+      <input type="text" name="product" id="product" placeholder="Produto" required>
+      <input type="number" name="value_product" id="value_product" placeholder="Preço">
+      <input type="number" name="qtd_product" id="qtd_product" placeholder="Quantidade">
+      <button type="button" onclick="addItem()">Adicionar</button>
+    </form>
+
+    <div>
+      <section>
+        <p>Produto</p>
+        <p>Preço</p>
+        <p>Quantidade</p>
+        <p>Participantes</p>
+      </section>
+      <section class="ordereds_items">
+  
+      </section>
+    </div>
+
+    <section class="participants">
+      <h3>Participantes</h3>
+      <form>
+        <select name="items" id="select_items">
+          <option value="">Item</option>
+        </select>
+        <input type="text" name="person" id="person" placeholder="Participante">
+
+        <button type="button" onclick="insertPerson()" >Adicionar</button>
+      </form>
+    </section>
+
+    <form class="people_tax_container">
+      <h3>Quem vai pagar a taxa pelo serviço?</h3 >
+      <div class="rate_container">
+
+      </div>
+      <button type="button" onclick="checkResult()">Conta</button>
+    </form>
+
+    <section class="check_result">
+
+    </section>
+
+    <script src="script.js"></script>
+  </main>
+</body>
+</html>

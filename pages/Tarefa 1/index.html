@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversor de Números Romanos</title>
+  <link rel="stylesheet" href="../../css/general.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a href="../../index.html">
+    <button class="back-btn">
+      Voltar
+    </button>
+  </a>
+  <main>
+    <h1>Conversor</h1>
+  <form>
+    <div>
+      <input type="text" name="num1" id="num1" placeholder="Digite o número romano">
+      <button type="button" onclick="convertionToArabico()">Converter para arábico</button>
+    </div>
+    <div>
+      <input type="number" name="num2" id="num2" placeholder="Digite o número arábico">
+      <button type="button" onclick="convertionToRomano()">Converter para romano</button>
+    </div>
+  </form>
+
+  <h1 class="result"></h1>
+  </main>
+  
+  <script src="script.js"></script>
+</body>
+</html>

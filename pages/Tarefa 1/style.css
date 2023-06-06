@@ -1,0 +1,11 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+main form div {
+  margin-bottom: 1rem;
+}
